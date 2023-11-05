@@ -1,7 +1,7 @@
 ---
 # Leave the homepage title empty to use the site title
 title: ''
-date: 2022-10-24
+date: 2023-11-05
 type: landing
 
 sections:
@@ -39,245 +39,369 @@ sections:
   - block: about.biography
     id: about
     content:
-      title: Biography
+      title: Βιογραφικό
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-  - block: skills
-    content:
-      title: Skills
-      text: ''
-      # Choose a user to display skills from (a folder name within `content/authors/`)
-      username: admin
-    design:
-      columns: '1'
-  - block: experience
-    content:
-      title: Experience
-      # Date format for experience
-      #   Refer to https://wowchemy.com/docs/customization/#date-format
-      date_format: Jan 2006
-      # Experiences.
-      #   Add/remove as many `experience` items below as you like.
-      #   Required fields are `title`, `company`, and `date_start`.
-      #   Leave `date_end` empty if it's your current employer.
-      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
-      items:
-        - title: CEO
-          company: GenCoin
-          company_url: ''
-          company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
-          date_end: ''
-          description: |2-
-              Responsibilities include:
-
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
-          company_url: ''
-          company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
-    design:
-      columns: '2'
+  #- block: skills
+  #  content:
+  #    title: Δεξιότητες
+  #    text: ''
+  #    # Choose a user to display skills from (a folder name within `content/authors/`)
+  #    username: admin
+  #  design:
+  #    columns: '1'
   - block: accomplishments
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-      title: 'Accomplish&shy;ments'
+      #title: 'Accomplish&shy;ments'
+      title: 'Εργασίες'
       subtitle:
       # Date format: https://wowchemy.com/docs/customization/#date-format
-      date_format: Jan 2006
+      date_format: 02 Jan 2006
       # Accomplishments.
       #   Add/remove as many `item` blocks below as you like.
       #   `title`, `organization`, and `date_start` are the required parameters.
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - certificate_url: https://www.coursera.org
-          date_end: ''
-          date_start: '2021-01-25'
+        - certificate_url: uploads/cygnet-2013.pdf
+          date_end: '2013-10-06'
+          date_start: '2013-10-04'
           description: ''
-          icon: coursera
-          organization: Coursera
-          organization_url: https://www.coursera.org
-          title: Neural Networks and Deep Learning
+          icon: blah
+          organization: >
+            4ο Πανελλήνιο Συνέδριο Αυτισμού: «Αυτισμός: Νέα δεδομένα», Ελληνική Εταιρία Προστασίας Αυτιστικών Ατόμων – Παράρτημα Θεσσαλονίκης
+          organization_url: https://autismnet.gr/timeline/4o-%ce%b1%cf%85%cf%84%ce%b9%cf%83%ce%bc%cf%8c%cf%82-%ce%bd%ce%ad%ce%b1-%ce%b4%ce%b5%ce%b4%ce%bf%ce%bc%ce%ad%ce%bd%ce%b1-%ce%b8%ce%b5%cf%83%cf%83%ce%b1%ce%bb%ce%bf%ce%bd%ce%af%ce%ba%ce%b7/
+          title: Πρόγραμμα Ψυχο-εκπαιδευσης γονέων Cygnet, μετρώντας την αποτελεσματικότητά του
           url: ''
-        - certificate_url: https://www.edx.org
-          date_end: ''
-          date_start: '2021-01-01'
-          description: Formulated informed blockchain models, hypotheses, and use cases.
-          icon: edx
-          organization: edX
-          organization_url: https://www.edx.org
-          title: Blockchain Fundamentals
-          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-        - certificate_url: https://www.datacamp.com
-          date_end: '2020-12-21'
-          date_start: '2020-07-01'
+        - certificate_url: uploads/mi-kateuthintiki-2015.pdf
+          date_end: '2015-10-18'
+          date_start: '2015-10-16'
           description: ''
-          icon: datacamp
-          organization: DataCamp
-          organization_url: https://www.datacamp.com
-          title: 'Object-Oriented Programming in R'
+          icon: octicon-star
+          organization: >
+            5ο Πανελλήνιο Συνέδριο για τον Αυτισμό: «Δουλεύοντας μαζί», Εταιρία Ψυχοκοινωνικών Μελετών (Ε.ΨΥ.ΜΕ.) / Ελληνικό Επιστημονικό Δίκτυο για τις Διαταραχές Αυτιστικού Φάσματος (Ε.Ε.Δ.Δ.Α.Φ.)
+          organization_url: https://autismnet.gr/timeline/5o-%ce%b4%ce%bf%cf%85%ce%bb%ce%b5%cf%8d%ce%bf%ce%bd%cf%84%ce%b1%cf%82-%ce%bc%ce%b1%ce%b6%ce%af-%cf%80%ce%b5%ce%b9%cf%81%ce%b1%ce%b9%ce%ac%cf%82/
+          title: Η βελτίωση των κοινωνικών - επικοινωνιακών δεξιοτήτων παιδιών με αυτισμό με τη χρήση δραστηριοτήτων βασισμένων στη θεωρία της μη κατευθυντικής παιγνιοθεραπείας
           url: ''
+
+        - certificate_url: uploads/iake-2016-psycho.pdf
+          date_end: '2016-04-03'
+          date_start: '2016-04-01'
+          description: ''
+          icon: octicon-star
+          organization: >
+            2ο Πανελλήνιο Επιστημονικό Συνέδριο  Ινστιτούτου Ανθρωπιστικών και Κοινωνικών Επιστημών Ι.Α.Κ.Ε.: «Τοπική Αυτοδιοίκηση, Εκπαίδευση και Δια Βίου Μάθηση. Η παιδεία και ο πολιτισμός ως πυλώνες περιφερειακής ανάπτυξης»
+          organization_url: 
+          title: Η αποτελεσματικότητα των ψυχοεκπαιδευτικών ομάδων στην ανάπτυξη κοινωνικών και επικοινωνιακών δεξιοτήτων σε παιδιά με αυτισμό
+          url: ''
+        - certificate_url: uploads/iake-2016-cygnet.pdf
+          date_end: '2016-04-03'
+          date_start: '2016-04-01'
+          description: ''
+          icon: octicon-star
+          organization: >
+            2ο Πανελλήνιο Επιστημονικό Συνέδριο  Ινστιτούτου Ανθρωπιστικών και Κοινωνικών Επιστημών Ι.Α.Κ.Ε.: «Τοπική Αυτοδιοίκηση, Εκπαίδευση και Δια Βίου Μάθηση. Η παιδεία και ο πολιτισμός ως πυλώνες περιφερειακής ανάπτυξης»
+          organization_url: ''
+          title: Πρόγραμμα ψυχοεκπαίδευσης γονέων και φροντιστών Cygnet
+          url: ''
+        - certificate_url: uploads/6o-paidia-omades-2017.pdf
+          date_end: '2017-10-15'
+          date_start: '2017-10-13'
+          description: ''
+          icon: octicon-star
+          organization: >
+            6ο Πανελλήνιο Συνέδριο για τον Αυτισμό: «Δυνατότητες και προκλήσεις» Ελληνικό Επιστημονικό Δίκτυο για τις Διαταραχές Αυτιστικού Φάσματος (Ε.Ε.Δ.Δ.Α.Φ.) Σύλλογος Γονέων Κηδεμόνων και Φίλων Ατόμων με Αυτισμό Ν. Λάρισας
+          organization_url: ''
+          title: >
+            Ομάδες κοινωνικών δεξιοτήτων για παιδιά και εφήβους με ΔΑΦ: προκλήσεις για κοινές αρχές και στόχους
+          url: ''
+        - certificate_url: uploads/6o-cygnet-2017.pdf
+          date_end: '2017-10-15'
+          date_start: '2017-10-13'
+          description: ''
+          icon: octicon-star
+          organization: >
+            6ο Πανελλήνιο Συνέδριο για τον Αυτισμό: «Δυνατότητες και προκλήσεις» Ελληνικό Επιστημονικό Δίκτυο για τις Διαταραχές Αυτιστικού Φάσματος (Ε.Ε.Δ.Δ.Α.Φ.) Σύλλογος Γονέων Κηδεμόνων και Φίλων Ατόμων με Αυτισμό Ν. Λάρισας
+          organization_url: ''
+          title: >
+            Αποτίμηση του προγράμματος Cygnet, αρραγής υποστήριξη γονέων και φροντιστών σχετικά με τις Κ.Α.Φ.
+          url: ''
+        - certificate_url: uploads/8o-poster-2023.pdf
+          date_end: '2023-10-15'
+          date_start: '2023-10-13'
+          description: ''
+          icon: octicon-star
+          organization: >
+            8ο Πανελλήνιο Συνέδριο για τον Αυτισμό, Ελληνικό Επιστημονικό Δίκτυο για τις Διαταραχές Αυτιστικού Φάσματος (Ε.Ε.Δ.Δ.Α.Φ.), Ελληνική Εταιρία Προστασίας Αυτιστικών Ατόμων (Ε.Ε.Π.Α.Α.), Παράρτημα Θεσσαλονίκης
+          organization_url: ''
+          title: >
+            Η Τεχνητή Νοημοσύνη αρωγός στην πρώιμη ανίχνευση αυτισμού
+          url: ''
+        - certificate_url: uploads/8o-adelfia-2023.pdf
+          date_end: '2023-10-15'
+          date_start: '2023-10-13'
+          description: ''
+          icon: octicon-star
+          organization: >
+            8ο Πανελλήνιο Συνέδριο για τον Αυτισμό, Ελληνικό Επιστημονικό Δίκτυο για τις Διαταραχές Αυτιστικού Φάσματος (Ε.Ε.Δ.Δ.Α.Φ.), Ελληνική Εταιρία Προστασίας Αυτιστικών Ατόμων (Ε.Ε.Π.Α.Α.), Παράρτημα Θεσσαλονίκης
+          organization_url: ''
+          title: >
+            Υποστήριξη Αδελφών παιδιών με ΔΑΦ: Μια ομαδική ψυχοεκπαιδευτική προσέγγιση
+          url: ''
+        - certificate_url: uploads/3o-adelfia-2023.pdf
+          date_end: '2023-11-19'
+          date_start: '2023-11-18'
+          description: ''
+          icon: octicon-star
+          organization: >
+            3η Ετήσια Επιστημονική Εκδήλωση της Ελληνικής Εταιρείας Αναπτυξιακών Παιδιάτρων, 12ο Πανελλήνιο Συνέδριο Αναπτυξιακής και Συμπεριφορικής Παιδιατρικής, ΕΕΑΠ 2020
+          organization_url: ''
+          title: >
+            Ενίσχυση της Ψυχικής Ανθεκτικότητας Αδελφών Παιδιών με ΔΑΦ με Ομάδες Ψυχοεκπαίδευσης
+          url: ''
+#        - certificate_url: https://www.edx.org
+#          date_end: ''
+#          date_start: '2021-01-01'
+#          description: Formulated informed blockchain models, hypotheses, and use cases.
+#          icon: edx
+#          organization: edX
+#          organization_url: https://www.edx.org
+#          title: Blockchain Fundamentals
+#          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
+#        - certificate_url: https://www.datacamp.com
+#          date_end: '2020-12-21'
+#          date_start: '2020-07-01'
+#          description: ''
+#          icon: datacamp
+#          organization: DataCamp
+#          organization_url: https://www.datacamp.com
+#          title: 'Object-Oriented Programming in R'
+#          url: ''
     design:
       columns: '2'
-  - block: collection
-    id: posts
+  - block: experience
     content:
-      title: Recent Posts
-      subtitle: ''
-      text: ''
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 5
-      # Filter on criteria
-      filters:
-        folders:
-          - post
-        author: ""
-        category: ""
-        tag: ""
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ""
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
-    design:
-      # Choose a layout view
-      view: compact
-      columns: '2'
-  - block: portfolio
-    id: projects
-    content:
-      title: Projects
-      filters:
-        folders:
-          - project
-      # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
-      default_button_index: 0
-      # Filter toolbar (optional).
-      # Add or remove as many filters (`filter_button` instances) as you like.
-      # To show all items, set `tag` to "*".
-      # To filter by a specific tag, set `tag` to an existing tag name.
-      # To remove the toolbar, delete the entire `filter_button` block.
-      buttons:
-        - name: All
-          tag: '*'
-        - name: Deep Learning
-          tag: Deep Learning
-        - name: Other
-          tag: Demo
-    design:
-      # Choose how many columns the section has. Valid values: '1' or '2'.
-      columns: '1'
-      view: showcase
-      # For Showcase view, flip alternate rows?
-      flip_alt_rows: false
-  - block: markdown
-    content:
-      title: Gallery
-      subtitle: ''
-      text: |-
-        {{< gallery album="demo" >}}
-    design:
-      columns: '1'
-  - block: collection
-    id: featured
-    content:
-      title: Featured Publications
-      filters:
-        folders:
-          - publication
-        featured_only: true
+      title: Εμπειρία
+      # Date format for experience
+      #   Refer to https://wowchemy.com/docs/customization/#date-format
+      date_format: 2006
+      # Experiences.
+      #   Add/remove as many `experience` items below as you like.
+      #   Required fields are `title`, `company`, and `date_start`.
+      #   Leave `date_end` empty if it's your current employer.
+      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+      items:
+        - title: Ειδική Παιδαγωγός
+          company: Ταξίδι στην Ανάπτυξη
+          company_url: ''
+          company_logo: taxidi
+          location: Αιγάλεω, Αττική
+          date_start: '2011-01-01'
+          date_end: ''
+          description: |2-
+             Ειδική Παιδαγωγός στο Κέντρο Ειδικών Θεραπειών "Ταξίδι στην Ανάπτυξη" -- διάγνωση, αξιολόγηση, παρέμβαση σε παιδιά με ΔΑΔ, και συναφείς διαταραχές.
+             Συντονισμός ομάδων κοινωνικής αλληλεπίδρασης, σε παιδιά με ΔΑΔ. 
+             Οργάνωση και υλοποίηση Ψυχοεκπαιδευτικών ομάδων γονέων, με το πρόγραμμα Cygnet. 
+        - title: Ειδική Παιδαγωγός
+          company: Λόγος Έργο Μάθηση
+          company_url: ''
+          company_logo: logosergomathisi
+          location: Νίκαια, Αττική
+          date_start: '1999-01-01'
+          date_end: '2010-12-01'
+          description: Ειδική Παιδαγωγός στο Κέντρο Ειδικών Θεραπειών "Λόγος Έργο Μάθηση" -- διάγνωση, αξιολόγηση, εκπαίδευση παιδιών με ΔΑΔ, και συναφών διαταραχών.
+        - title: Ειδική Παιδαγωγός
+          company: Επίγνωση
+          company_url: ''
+          company_logo: org-gc
+          location: Βύρωνας, Αττική
+          date_start: '2004-12-01'
+          date_end: '2005-06-01'
+          description: Πρωινό Τμήμα του Κέντρου Ημέρας πρώιμης παρέμβασης, Ατομικές συνεδρίες αποκατάστασης σε παιδιά με αυτισμό και ΔΑΔ.
+        - title: Δημιουργική Απασχόληση
+          company: Ζωή και δημιουργία
+          company_url: ''
+          company_logo: org-gc
+          location: Γαλάτσι, Αττική
+          date_start: '2000-01-01'
+          date_end: '2000-04-30'
+          description: Δημιουργική Απασχόληση με άτομα με νοητική υστέρηση και Αυτισμό, δομή ‘’Ζωή και δημιουργία’’, Γαλάτσι, σε παιδιά εφήβους και ενήλικες. Με την στήριξη του δήμου.
+        - title: Συνοδός Α.Μ.Ε.Α.
+          company: ΠΟΣΓΚΑμεΑ
+          company_url: ''
+          company_logo: posgamea
+          location: 
+          date_start: '2000-01-01'
+          date_end: '2001-08-31'
+          description: Συνοδός Α.Μ.Ε.Α. σε κατασκήνωση της Πανελλήνιας Ομοσπονδίας Σωματείων Γονέων και Κηδεμόνων Ατόμων με Αναπηρία (ΠΟΣΓΚΑμεΑ) υπό την αιγίδα του Υπουργείου Υγείας και Πρόνοιας.
+        - title: Aτομικές συνεδρίες
+          location: 
+          date_start: '2000-09-01'
+          date_end: '2001-02-28'
+          description: Ιδιωτικές ατομικές συνεδρίες κατ οίκον, σε περιστατικά αυτισμού - μέτριας και υψηλής λειτουργικότητας.
+        - title: Εθελοντική Εργασία
+          company: Παμμακάριστος
+          company_url: ''
+          company_logo: pammakaristos
+          location: 
+          date_start: '2000-06-01'
+          date_end: '2000-10-31'
+          description: Εθελοντική εργασία σε Ειδική τάξη με παιδιά με αυτισμό νοητική καθυστέρηση και προβλήματα συμπεριφοράς στο Ίδρυμα για το Παιδί "Παμμακάριστος".
     design:
       columns: '2'
-      view: card
-  - block: collection
-    content:
-      title: Recent Publications
-      text: |-
-        {{% callout note %}}
-        Quickly discover relevant content by [filtering publications](./publication/).
-        {{% /callout %}}
-      filters:
-        folders:
-          - publication
-        exclude_featured: true
-    design:
-      columns: '2'
-      view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - event
-    design:
-      columns: '2'
-      view: compact
-  - block: tag_cloud
-    content:
-      title: Popular Topics
-    design:
-      columns: '2'
+
+  #- block: collection
+  #  id: posts
+#    content:
+#      title: Recent Posts
+#      subtitle: ''
+#      text: ''
+#      # Choose how many pages you would like to display (0 = all pages)
+#      count: 5
+#      # Filter on criteria
+#      filters:
+#        folders:
+#          - post
+#        author: ""
+#        category: ""
+#        tag: ""
+#        exclude_featured: false
+#        exclude_future: false
+#        exclude_past: false
+#        publication_type: ""
+#      # Choose how many pages you would like to offset by
+#      offset: 0
+#      # Page order: descending (desc) or ascending (asc) date.
+#      order: desc
+#    design:
+#      # Choose a layout view
+#      view: compact
+#      columns: '2'
+#  - block: portfolio
+#    id: projects
+#    content:
+#      title: Projects
+#      filters:
+#        folders:
+#          - project
+#      # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
+#      default_button_index: 0
+#      # Filter toolbar (optional).
+#      # Add or remove as many filters (`filter_button` instances) as you like.
+#      # To show all items, set `tag` to "*".
+#      # To filter by a specific tag, set `tag` to an existing tag name.
+#      # To remove the toolbar, delete the entire `filter_button` block.
+#      buttons:
+#        - name: All
+#          tag: '*'
+#        - name: Deep Learning
+#          tag: Deep Learning
+#        - name: Other
+#          tag: Demo
+#    design:
+#      # Choose how many columns the section has. Valid values: '1' or '2'.
+#      columns: '1'
+#      view: showcase
+#      # For Showcase view, flip alternate rows?
+#      flip_alt_rows: false
+#  - block: markdown
+#    content:
+#      title: Gallery
+#      subtitle: ''
+#      text: |-
+#        {{< gallery album="demo" >}}
+#    design:
+#      columns: '1'
+#  - block: collection
+#    id: featured
+#    content:
+#      title: Featured Publications
+#      filters:
+#        folders:
+#          - publication
+#        featured_only: true
+#    design:
+#      columns: '2'
+#      view: card
+#  - block: collection
+#    content:
+#      title: Recent Publications
+#      text: |-
+#        {{% callout note %}}
+#        Quickly discover relevant content by [filtering publications](./publication/).
+#        {{% /callout %}}
+#      filters:
+#        folders:
+#          - publication
+#        exclude_featured: true
+#    design:
+#      columns: '2'
+#      view: citation
+#  - block: collection
+#    id: talks
+#    content:
+#      title: Recent & Upcoming Talks
+#      filters:
+#        folders:
+#          - event
+#    design:
+#      columns: '2'
+#      view: compact
+#  - block: tag_cloud
+#    content:
+#      title: Popular Topics
+#    design:
+#      columns: '2'
   - block: contact
     id: contact
     content:
-      title: Contact
+      title: Επικοινωνία
       subtitle:
       text: |-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
+        Μπορείτε να επικοινωνήσετε μαζί μου μέσω e-mail:
       # Contact (add or remove contact options as necessary)
-      email: test@example.org
-      phone: 888 888 88 88
-      appointment_url: 'https://calendly.com'
-      address:
-        street: 450 Serra Mall
-        city: Stanford
-        region: CA
-        postcode: '94305'
-        country: United States
-        country_code: US
-      directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-      office_hours:
-        - 'Monday 10:00 to 13:00'
-        - 'Wednesday 09:00 to 10:00'
-      # Choose a map provider in `params.yaml` to show a map from these coordinates
-      coordinates:
-        latitude: '37.4275'
-        longitude: '-122.1697'  
-      contact_links:
-        - icon: twitter
-          icon_pack: fab
-          name: DM Me
-          link: 'https://twitter.com/Twitter'
-        - icon: skype
-          icon_pack: fab
-          name: Skype Me
-          link: 'skype:echo123?call'
-        - icon: video
-          icon_pack: fas
-          name: Zoom Me
-          link: 'https://zoom.com'
+      email: avgi@vitanidi.gr
+      #phone: 888 888 88 88
+      #appointment_url: 'https://calendly.com'
+      #address:
+#        street: 450 Serra Mall
+#        city: Stanford
+#        region: CA
+#        postcode: '94305'
+#        country: United States
+#        country_code: US
+#      directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+#      office_hours:
+#        - 'Monday 10:00 to 13:00'
+#        - 'Wednesday 09:00 to 10:00'
+#      # Choose a map provider in `params.yaml` to show a map from these coordinates
+#      coordinates:
+#        latitude: '37.4275'
+#        longitude: '-122.1697'  
+#      contact_links:
+#        - icon: twitter
+#          icon_pack: fab
+#          name: DM Me
+#          link: 'https://twitter.com/Twitter'
+#        - icon: skype
+#          icon_pack: fab
+#          name: Skype Me
+#          link: 'skype:echo123?call'
+#        - icon: video
+#          icon_pack: fas
+#          name: Zoom Me
+#          link: 'https://zoom.com'
       # Automatically link email and phone or display as text?
       autolink: true
       # Email form provider
-      form:
-        provider: netlify
-        formspree:
-          id:
-        netlify:
-          # Enable CAPTCHA challenge to reduce spam?
-          captcha: false
-    design:
-      columns: '2'
+#      form:
+#        provider: netlify
+#        formspree:
+#          id:
+#        netlify:
+#          # Enable CAPTCHA challenge to reduce spam?
+#          captcha: false
+#    design:
+#      columns: '2'
 ---

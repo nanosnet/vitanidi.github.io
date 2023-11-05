@@ -2,11 +2,30 @@
 #   Create a section for each of your site's languages.
 #   Documentation: https://wowchemy.com/docs/guide/language/
 
-# Default language
-en:
-  languageCode: en-us
+#en:
+#  languageCode: en-us
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
   #contentDir: content/en
+
+el:
+  languageCode: el-gr
+  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
+  #contentDir: content/en
+  menu:
+    main:
+      - name: Αρχική
+        url: '#about'
+        weight: 1
+      - name: Επιστημονικές Εργασίες
+        url: '#section-accomplishments'
+        weight: 2
+      - name: Εργασιακή Εμπειρία
+        url: '#section-experience'
+        weight: 3
+      - name: Επικοινωνία
+        url: '#contact'
+        weight: 4
+
 
 # Uncomment the lines below to configure your website in a second language.
 #zh:
