@@ -36,12 +36,36 @@ sections:
         gradient_end: '#1976d2'
         gradient_start: '#004ba0'
         text_color_light: true
+
   - block: about.biography
     id: about
     content:
-      title: Βιογραφικό
+      title: 
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
+  - block: contact
+    design:
+      columns: '1'
+    id: shortbio
+    content:
+      title: Συντομο Βιογραφικό
+      subtitle: 
+      text: |+
+        Εργάζομαι στην Ειδική Εκπαίδευση από το 1999. Είμαι εξειδικευμένη στο σχεδιασμό και την εφαρμογή ψυχοεκπαιδευτικών προγραμμάτων παρέμβασης σε παιδιά με νευρο-αναπτυξιακές διαταραχές.
+
+        Είμαι απόφοιτη τμήματος Λογοθεραπείας. Έχω λάβει μετεκπαίδευση “Εξειδίκευση Εκπαιδευτικών και Ειδικού προσωπικού στον Αυτισμό”, που σχεδιάστηκε και υλοποιήθηκε από την ελληνική εταιρεία Προστασίας αυτιστικών ατόμων.
+
+        Η εργασιακή μου εμπειρία περιλαμβάνει εργασία σε δημόσιες δομές και ιδιωτικά κέντρα ειδικών θεραπειών, ατομικές συνεδρίες παιδιών, ένταξη παιδιών σε σχολικά πλαίσια, εργασία σε κατασκηνώσεις ΑΜΕΑ. Γνωρίζω τη νοηματική γλώσσα. Η συνεχής μου επιμόρφωση περιλαμβάνει σεμινάρια στις αρχές της δομημένες εκπαίδευσης TEACCH, προγράμματα επικοινωνίας PECS, MAKATON, καθώς και την Αισθητηριακή Ολοκλήρωση (SI). Συνάμα, εκπαιδεύτηκα στη χρήση παιχνιδιού ως μέσο ενίσχυσης των κοινωνικών δεξιοτήτων (SSIP) και το Γνωσιακό συμπεριφορικό Δράμα (CBD). Επίσης, έχω λάβει την εκπαίδευση στη χορήγηση ADOS-2 και την Vineland.
+
+        Είμαι μέλος του Ελληνικού Επιστημονικού Δικτύου για τις Διαταραχές του Αυτιστικού Φάσματος / ΔΑΦ.
+  #- block: skills
+  #  content:
+  #    title: Δεξιότητες
+  #    text: ''
+  #    # Choose a user to display skills from (a folder name within `content/authors/`)
+  #    username: admin
+  #  design:
+  #    columns: '1'
   #- block: skills
   #  content:
   #    title: Δεξιότητες
@@ -95,7 +119,7 @@ sections:
           organization_url: 
           title: Η αποτελεσματικότητα των ψυχοεκπαιδευτικών ομάδων στην ανάπτυξη κοινωνικών και επικοινωνιακών δεξιοτήτων σε παιδιά με αυτισμό
           url: ''
-        - certificate_url: uploads/iake-2016-cygnet.pdf
+        - certificate_url: #uploads/iake-2016-cygnet.pdf
           date_end: '2016-04-03'
           date_start: '2016-04-01'
           description: ''
@@ -105,7 +129,7 @@ sections:
           organization_url: ''
           title: Πρόγραμμα ψυχοεκπαίδευσης γονέων και φροντιστών Cygnet
           url: ''
-        - certificate_url: uploads/6o-paidia-omades-2017.pdf
+        - certificate_url: #uploads/6o-paidia-omades-2017.pdf
           date_end: '2017-10-15'
           date_start: '2017-10-13'
           description: ''
@@ -127,6 +151,28 @@ sections:
           title: >
             Αποτίμηση του προγράμματος Cygnet, αρραγής υποστήριξη γονέων και φροντιστών σχετικά με τις Κ.Α.Φ.
           url: ''
+        - certificate_url: uploads/7o-aisthitiriaki-2019.pdf
+          date_end: '2019-11-03'
+          date_start: '2019-11-01'
+          description: ''
+          icon: octicon-star
+          organization: >
+            7ο Πανελλήνιο Συνέδριο για τον Αυτισμό: «Από τη διαφορετικότητα ως τη διαταραχή» Ελληνικό Επιστημονικό Δίκτυο για τις Διαταραχές Αυτιστικού Φάσματος (Ε.Ε.Δ.Δ.Α.Φ.), Ελληνική Εταιρία Προστασίας Αυτιστικών Ατόμων (Ε.Ε.Π.Α.Α.)
+          organization_url: ''
+          title: >
+            Διεύρυνση προγράμματος εκπαίδευσης για διαταραχές αισθητηριακής επεξεργασίας
+          url: ''
+        - certificate_url: uploads/7o-sex-2019.pdf
+          date_end: '2019-11-03'
+          date_start: '2019-11-01'
+          description: ''
+          icon: octicon-star
+          organization: >
+            7ο Πανελλήνιο Συνέδριο για τον Αυτισμό: «Από τη διαφορετικότητα ως τη διαταραχή» Ελληνικό Επιστημονικό Δίκτυο για τις Διαταραχές Αυτιστικού Φάσματος (Ε.Ε.Δ.Δ.Α.Φ.), Ελληνική Εταιρία Προστασίας Αυτιστικών Ατόμων (Ε.Ε.Π.Α.Α.)
+          organization_url: ''
+          title: >
+            Διεύρυνση της σεξουαλικής εκπαίδευσης παιδιών και εφήβων με ΔΑΦ με χρήση παράλληλης ομαδικής παρέμβασης βάσει του PSR
+          url: ''
         - certificate_url: uploads/8o-poster-2023.pdf
           date_end: '2023-10-15'
           date_start: '2023-10-13'
@@ -137,6 +183,17 @@ sections:
           organization_url: ''
           title: >
             Η Τεχνητή Νοημοσύνη αρωγός στην πρώιμη ανίχνευση αυτισμού
+          url: ''
+        - certificate_url: uploads/8o-theatro-2023.pdf
+          date_end: '2023-10-15'
+          date_start: '2023-10-13'
+          description: ''
+          icon: octicon-star
+          organization: >
+            8ο Πανελλήνιο Συνέδριο για τον Αυτισμό, Ελληνικό Επιστημονικό Δίκτυο για τις Διαταραχές Αυτιστικού Φάσματος (Ε.Ε.Δ.Δ.Α.Φ.), Ελληνική Εταιρία Προστασίας Αυτιστικών Ατόμων (Ε.Ε.Π.Α.Α.), Παράρτημα Θεσσαλονίκης
+          organization_url: ''
+          title: >
+            H Συμβολή του Θεάτρου στη σεξουαλική αγωγή των εφήβων στο φάσμα του αυτισμού
           url: ''
         - certificate_url: uploads/8o-adelfia-2023.pdf
           date_end: '2023-10-15'
@@ -179,7 +236,7 @@ sections:
 #          title: 'Object-Oriented Programming in R'
 #          url: ''
     design:
-      columns: '2'
+      columns: '1'
   - block: experience
     content:
       title: Εμπειρία
@@ -249,7 +306,7 @@ sections:
           date_end: '2000-10-31'
           description: Εθελοντική εργασία σε Ειδική τάξη με παιδιά με αυτισμό νοητική καθυστέρηση και προβλήματα συμπεριφοράς στο Ίδρυμα για το Παιδί "Παμμακάριστος".
     design:
-      columns: '2'
+      columns: '1'
 
   #- block: collection
   #  id: posts
