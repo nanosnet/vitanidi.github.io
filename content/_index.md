@@ -129,7 +129,7 @@ sections:
           organization_url: ''
           title: Πρόγραμμα ψυχοεκπαίδευσης γονέων και φροντιστών Cygnet
           url: ''
-        - certificate_url: #uploads/6o-paidia-omades-2017.pdf
+        - certificate_url: uploads/6o-paidia-omades-2017.pdf
           date_end: '2017-10-15'
           date_start: '2017-10-13'
           description: ''
