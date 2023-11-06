@@ -119,7 +119,7 @@ sections:
           organization_url: 
           title: Η αποτελεσματικότητα των ψυχοεκπαιδευτικών ομάδων στην ανάπτυξη κοινωνικών και επικοινωνιακών δεξιοτήτων σε παιδιά με αυτισμό
           url: ''
-        - certificate_url: #uploads/iake-2016-cygnet.pdf
+        - certificate_url: uploads/iake-2016-cygnet.pdf
           date_end: '2016-04-03'
           date_start: '2016-04-01'
           description: ''
