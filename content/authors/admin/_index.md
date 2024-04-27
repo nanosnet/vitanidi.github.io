@@ -108,7 +108,7 @@ social:
 #    link: https://github.com/gcushen
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/in/avgi-vitanidi-b4b57b274/
+    link: https://www.linkedin.com/in/%CE%B1%CF%85%CE%B3%CE%AE-%CE%B2%CE%B9%CF%84%CE%B1%CE%BD%CE%AF%CE%B4%CE%B7-10033441/
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.

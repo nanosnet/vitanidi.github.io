@@ -217,6 +217,18 @@ sections:
           title: >
             Ενίσχυση της Ψυχικής Ανθεκτικότητας Αδελφών Παιδιών με ΔΑΦ με Ομάδες Ψυχοεκπαίδευσης
           url: ''
+        - certificate_url: uploads/1o-diathematiko-2024.pdf
+          date_end: '2024-04-07'
+          date_start: '2024-04-06'
+          description: ''
+          icon: octicon-star
+          organization: >
+            1ο Πανελλήνιο Διαθεματικό Συνέδριο Ειδικής Αγωγής
+          organization_url: 'https://diathematiko.gr/'
+          title: >
+            Πρόγραμμα ψυχοεκπαίδευσης γονέων και φροντιστών σχετικά με τις καταστάσεις αυτιστικού φάσματος: CYGNET
+          url: ''
+
 #        - certificate_url: https://www.edx.org
 #          date_end: ''
 #          date_start: '2021-01-01'
