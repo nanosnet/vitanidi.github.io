@@ -228,6 +228,28 @@ sections:
           title: >
             Πρόγραμμα ψυχοεκπαίδευσης γονέων και φροντιστών σχετικά με τις καταστάσεις αυτιστικού φάσματος: CYGNET
           url: ''
+        - certificate_url: uploads/AARM-2024-1.pdf
+          date_end: '2024-09-29'
+          date_start: '2024-09-27'
+          description: ''
+          icon: octicon-star
+          organization: >
+            International Conference on Autism Advanced Research and Management
+          organization_url: 'https://www.connectmetoo.org/'
+          title: >
+            CYGNET Enhancing Support for Children with Autism Through Collaborative Engagement
+          url: ''
+        - certificate_url: uploads/AARM-2024-2.pdf
+          date_end: '2024-09-29'
+          date_start: '2024-09-27'
+          description: ''
+          icon: octicon-star
+          organization: >
+            International Conference on Autism Advanced Research and Management
+          organization_url: 'https://www.connectmetoo.org/'
+          title: >
+            Harnessing Artificial Intelligence for Early Identification of Autism Spectrum Disorder
+          url: ''
 
 #        - certificate_url: https://www.edx.org
 #          date_end: ''
