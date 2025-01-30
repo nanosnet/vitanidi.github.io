@@ -250,7 +250,17 @@ sections:
           title: >
             Harnessing Artificial Intelligence for Early Identification of Autism Spectrum Disorder
           url: ''
-
+        - certificate_url: uploads/4o-anapt-ai-2024.pdf
+          date_end: '2024-11-24'
+          date_start: '2024-11-22'
+          description: ''
+          icon: octicon-star
+          organization: >
+            4η Εκδήλωση Ελ. Ετ. Αναπτυξιακών Παιδιάτρων, 13ο Συνέδριο Αναπτυξιακής και Συμπεριφορικής Ιατρικής
+          organization_url: 'https://mdcongress.gr/event/anaptixiakis2024'
+          title: >
+            Πρώιμη Παρέμβαση στον Αυτισμό: Μήπως Χάνουμε Χρόνο Χωρίς Λόγο;
+          url: ''
 #        - certificate_url: https://www.edx.org
 #          date_end: ''
 #          date_start: '2021-01-01'
@@ -496,4 +506,3 @@ sections:
 #    design:
 #      columns: '2'
 ---
-
